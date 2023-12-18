@@ -6,7 +6,7 @@ pygame.font.init()
 WIDTH, HEIGHT = 1000, 700
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Hopeless Death From Dropping Hazards")
-BG = pygame.transform.scale(pygame.image.load('pygame game/bg.jpg'), (WIDTH, HEIGHT))
+BG = pygame.transform.scale(pygame.image.load('bg.jpg'), (WIDTH, HEIGHT))
 
 PLAYER_WIDTH = 40
 PLAYER_HEIGHT = 60
